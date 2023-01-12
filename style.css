@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+html {
+    background-color: rgb(250, 250, 250);
+}
+
+/*Picture and Login*/
+#content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/*Picture of Phone*/
+#phone {
+    height: 950px;
+}
+
+/*Login Side*/
+.right {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 9%;
+}
+
+/*First Box Border*/
+#login-box {
+    border: 2px solid rgb(219, 219, 219);
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#insta-logo {
+    width: 310px;
+    margin-bottom: 11px;
+}
+
+/*Input (email and password)*/
+#login-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    height: 39px;
+    width: 385px;
+    background-color: rgb(250 250 250);
+    border: 1px solid rgb(219 219 219);
+    border-radius: 2px;
+    padding: 8px 9px 8px 9px;
+    font-size: 19px;
+}
+
+/*Log In Button*/
+#log-in {
+    background-color: rgb(71 175 255);
+    border: 0px;
+    padding: 13px;
+    border-radius: 11px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/*Or section*/
+#or {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Sans';
+    margin-top: 25px;
+    color: rgb(166 156 156);
+    gap: 20px;
+}
+
+.line {
+    width: 160px;
+    height: 1.5px;
+    background-color: rgb(219 219 219);
+}
+
+/*Facebook Login/Forgot Password*/
+#login-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/*Facebook*/
+#fb {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    font-size: 21px;
+    font-family: 'Noto Sans';
+    font-weight: 600;
+}
+
+#fb-logo {
+    width: 40px;
+}
+
+#fb-login {
+    color: rgb(56 81 133);
+    text-decoration: none;
+}
+
+/*Forgot Password*/
+#forgot {
+    color: rgb(56 81 133);
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-size: 19px;
+}
+
+/*Create an Account (Second Box)*/
+#account-create {
+    border: 2px solid rgb(219, 219, 219);
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans';
+    font-size: 21px;
+    gap: 10px;
+}
+
+#sign-up {
+    text-decoration: none;
+    color: rgb(71 175 255);
+    font-weight: 700;
+}
+
+/*Get the App*/
+#text {
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-size: 20px;
+}
+
+/*Where to get Insta*/
+#where {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.get {
+    height: 60px;
+}
+
+/*Bottom links*/
+#bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    font-family: 'Noto Sans';
+    gap: 20px;
+}
+
+.row {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(178 174 174);
+    border: none;
+    background-color: rgb(250 250 250);
+}
+
+
+/*Mobile Ver*/
+@media only screen and (max-width: 1610px) {
+
+    #phone {
+        display: none;
+    }
+}
+
+
